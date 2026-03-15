@@ -1,0 +1,10 @@
+@'
+# Streamlit secrets (do NOT commit)
+.streamlit/secrets.toml
+
+# Python env & caches
+.venv/
+__pycache__/
+*.pyc
+.env
+'@ | Out-File -Encoding utf8 -Force .gitignore
